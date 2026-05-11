@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npm run dev --prefix frontend",
-    "build": "npm run build --prefix frontend",
-    "install": "npm install --prefix frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
     "start:backend": "python backend/main.py"
   }
 }
